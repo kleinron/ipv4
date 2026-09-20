@@ -1,0 +1,34 @@
+{
+  "name": "@kleinron/ipv4",
+  "version": "0.2.0",
+  "description": "Drop-in for ipaddr.js IPv4 (MIT) \u2014 regex-free loose/inet_aton parse with a fast strict four-part path",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "bench": "node bench/bench.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kleinron/ipv4.git"
+  },
+  "homepage": "https://github.com/kleinron/ipv4",
+  "bugs": {
+    "url": "https://github.com/kleinron/ipv4/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ipaddr.js": "2.5.0"
+  }
+}

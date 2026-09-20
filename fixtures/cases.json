@@ -1,0 +1,263 @@
+[
+  {
+    "s": "0.0.0.0",
+    "valid": true,
+    "isZero": true,
+    "hasZeroOctet": true,
+    "be": 0
+  },
+  {
+    "s": "192.0.2.1",
+    "valid": true,
+    "isZero": false,
+    "hasZeroOctet": true,
+    "be": 3221225985
+  },
+  {
+    "s": "192.168.0.0",
+    "valid": true,
+    "isZero": false,
+    "hasZeroOctet": true,
+    "be": 3232235520
+  },
+  {
+    "s": "255.255.255.255",
+    "valid": true,
+    "isZero": false,
+    "hasZeroOctet": false,
+    "be": 4294967295
+  },
+  {
+    "s": "127.0.0.1",
+    "valid": true,
+    "isZero": false,
+    "hasZeroOctet": true,
+    "be": 2130706433
+  },
+  {
+    "s": "10.0.0.1",
+    "valid": true,
+    "isZero": false,
+    "hasZeroOctet": true,
+    "be": 167772161
+  },
+  {
+    "s": "1.2.3.4",
+    "valid": true,
+    "isZero": false,
+    "hasZeroOctet": false,
+    "be": 16909060
+  },
+  {
+    "s": "8.8.8.8",
+    "valid": true,
+    "isZero": false,
+    "hasZeroOctet": false,
+    "be": 134744072
+  },
+  {
+    "s": "100.64.0.1",
+    "valid": true,
+    "isZero": false,
+    "hasZeroOctet": true,
+    "be": 1681915905
+  },
+  {
+    "s": "0.1.2.3",
+    "valid": true,
+    "isZero": false,
+    "hasZeroOctet": true,
+    "be": 66051
+  },
+  {
+    "s": "1.0.2.3",
+    "valid": true,
+    "isZero": false,
+    "hasZeroOctet": true,
+    "be": 16777731
+  },
+  {
+    "s": "1.2.0.3",
+    "valid": true,
+    "isZero": false,
+    "hasZeroOctet": true,
+    "be": 16908291
+  },
+  {
+    "s": "1.2.3.0",
+    "valid": true,
+    "isZero": false,
+    "hasZeroOctet": true,
+    "be": 16909056
+  },
+  {
+    "s": "9.9.9.9",
+    "valid": true,
+    "isZero": false,
+    "hasZeroOctet": false,
+    "be": 151587081
+  },
+  {
+    "s": "99.99.99.99",
+    "valid": true,
+    "isZero": false,
+    "hasZeroOctet": false,
+    "be": 1667457891
+  },
+  {
+    "s": "01.2.3.4",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": "1.02.3.4",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": "1.2.03.4",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": "1.2.3.04",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": "1.2.3",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": "1.2..4",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": "256.1.1.1",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": "1.256.1.1",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": "1.2.3.4.5",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": "0177.0.0.1",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": "0x7f.0.0.1",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": "1.2.3.4/24",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": "1.2.3.4 ",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": " 1.2.3.4",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": "",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": ".",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": "...",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": "1...4",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": "1234.1.1.1",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": "1.2.3.4a",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": "1.2.3.+4",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": "1.2.3.-4",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": "999.1.1.1",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": "1.2.3.400",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": "00.0.0.0",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  },
+  {
+    "s": "0.00.0.0",
+    "valid": false,
+    "isZero": false,
+    "hasZeroOctet": false
+  }
+]
