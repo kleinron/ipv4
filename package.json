@@ -1,6 +1,6 @@
 {
   "name": "@kleinron/ipv4",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Drop-in for ipaddr.js IPv4 (MIT) \u2014 regex-free loose/inet_aton parse with a fast strict four-part path",
   "type": "module",
   "engines": {
