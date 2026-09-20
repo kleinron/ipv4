@@ -9,10 +9,6 @@ scanner, plus a **fast strict four-part** path behind `isValidFourPartDecimal`
 
 Shipped `src/` contains **no `RegExp`** — accept set pinned to ipaddr.js@2.5.0.
 
-> **Breaking change:** earlier never-published `check` / `parse` exports and
-> subpaths (`@kleinron/ipv4/check`, `@kleinron/ipv4/parse`) are removed. Use
-> `IPv4` instead.
-
 Parity oracle: **ipaddr.js `2.5.0`** (pinned `devDependency`).
 
 ## Install
